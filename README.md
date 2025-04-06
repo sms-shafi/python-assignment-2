@@ -21,16 +21,30 @@ else:
 print(a, 'is an even number.')
 # Prints the result if the number is even.
 ```
-# Sample output
+# Sample output:
 ---
 ```
 Enter a number: 9
 9 is an odd number.
 ```
----
+
 # Task 2: Sum of Integers from 1 to 50 Using a Loop
 ---
 # Code
 ```
+a = 0
+# This initializes a variable a to store the total sum.
 
+for i in range(1, 51):
+# This loop goes from 1 to 50 (51 is not included).
 
+a += i
+# Adds each number i to a.
+
+print('The sum of numbers from 1 to 50 is:', a)
+# After the loop ends, it prints the total sum
+```
+# Sample output:
+---
+```
+The sum of numbers from 1 to 50 is: 1275
